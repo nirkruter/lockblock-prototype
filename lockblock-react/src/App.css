@@ -1,0 +1,45 @@
+html {
+    font-family: Inter, sans-serif;
+    background-color: #6b686f;
+}
+
+main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    margin: 25px 25px;
+    color: aliceblue
+}
+
+.div-header {
+    border: 4px solid #332941;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4e45ae
+}
+
+.div-header__item {
+    margin: 15px;
+    height: 15px
+}
+
+.logo {
+    margin: 0px 15px;
+    height: 40px;
+}
+
+.logo__booking-item {
+    margin: 40px
+}
+
+a {
+    color: white;
+    font-weight: bold
+}
